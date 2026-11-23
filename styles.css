@@ -1,0 +1,90 @@
+body {
+    text-align: center;
+    margin: 0;
+    font-family: 'Pangolin', cursive;
+}
+
+h1 {
+    font-size: 4rem;
+    margin: 0;
+    color: #5a3e2b;
+}
+
+.top-container {
+    display: flex;
+    padding: 2rem;
+    justify-content: center;
+    background-color: #fcd1ad;
+    position: relative;
+}
+
+.top-icon {
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    position: absolute;
+    left: 2rem;
+    top: 2rem;
+}
+
+.middle-container {
+    padding: 0 1rem;
+}
+
+.parent img {
+    width: 200px;
+    max-width: 100%;
+    height: 200px;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+.parent {
+    display: flex;
+    gap: 2rem;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.thinking, .music {
+    flex: 1;
+}
+
+.btn {
+    display: inline-block;
+    background-color: #5a3e2b;
+    color: #fcd1ad;
+    padding: 10px 20px;
+    border-radius: 8px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+.btn:hover {
+    background-color: #8a6248;
+}
+
+.bottom-container {
+    background-color: #fcd1ad;
+    padding: 2rem;
+}
+
+.footer-link {
+    color: #5a3e2b;
+    margin: 0 1rem;
+}
+
+@media (max-width: 600px) {
+    .parent {
+        flex-direction: column;
+    }
+
+    .top-icon {
+        position: static;
+        margin: 0 auto 1rem;
+    }
+
+    .top-container {
+        flex-direction: column;
+    }
+}
