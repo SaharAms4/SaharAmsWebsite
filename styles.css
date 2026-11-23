@@ -74,6 +74,36 @@ h1 {
     margin: 0 1rem;
 }
 
+h2, h3 {
+    color: #5a3e2b;
+}
+
+.music ul {
+    list-style: none;
+    padding: 0;
+}
+
+.music li {
+    margin: 0.3rem 0;
+}
+
+.parent img {
+    transition: transform 0.3s;
+}
+
+.parent img:hover {
+    transform: scale(1.05);
+}
+
+hr {
+    border: none;
+    height: 3px;
+    width: 60px;
+    background-color: #5a3e2b;
+    border-radius: 2px;
+    margin: 3rem auto;
+}
+
 @media (max-width: 600px) {
     .parent {
         flex-direction: column;
